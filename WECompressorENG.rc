@@ -1,0 +1,964 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Italian (Italy) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ITA)
+#ifdef _WIN32
+LANGUAGE LANG_ITALIAN, SUBLANG_ITALIAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ITA)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 16, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\WECompressor.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.ita\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\WECompressor.ico"
+IDI_SELFILE             ICON    DISCARDABLE     "res\\Open.ico"
+IDI_PP_QUESTION         ICON    DISCARDABLE     "res\\58.ico"
+IDI_PP_INFORMATION      ICON    DISCARDABLE     "res\\59.ico"
+IDI_PP_ATTENTION        ICON    DISCARDABLE     "res\\1.ico"
+IDI_VIEWFILE            ICON    DISCARDABLE     "res\\lens.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOXOLD DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Informations about WECompressor"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "WECompressor Version 1.0",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2003",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_WECOMPRESSOR_DIALOG DIALOGEX 0, 0, 497, 346
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "WE Compressor 0.5 Beta 3 - by Walxer (& CARP)"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         108,IDC_WECOMPRESSOR,"Static",SS_BITMAP | SS_NOTIFY | 
+                    SS_SUNKEN | WS_BORDER,9,9,223,33
+    CONTROL         "Tab1",IDC_MAIN_TAB,"SysTabControl32",0x0,8,49,482,290
+    CONTROL         109,IDC_WECOMPRESSOR_WENDETTA,"Static",SS_BITMAP | 
+                    SS_NOTIFY | SS_SUNKEN | WS_BORDER,265,9,223,33
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 190, 183
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Informations about WE Compressor"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "WE Compressor 0.5",IDC_STATIC,63,13,64,8,SS_NOPREFIX
+    LTEXT           "CopyRight © 2003",IDC_STATIC,64,25,60,8
+    DEFPUSHBUTTON   "OK",IDOK,69,162,50,14,WS_GROUP
+    GROUPBOX        "Properties",IDC_STATIC,7,52,174,96
+    LISTBOX         IDC_LIST_HELP,19,65,151,73,LBS_NOINTEGRALHEIGHT | 
+                    LBS_NOSEL | WS_VSCROLL | WS_TABSTOP,WS_EX_CLIENTEDGE
+    ICON            IDR_MAINFRAME,IDC_STATIC,22,17,21,20
+    LTEXT           "Walxer (&& CARP)",IDC_STATIC,68,39,53,8
+    CONTROL         271,IDC_LOGO_CARP,"Static",SS_BITMAP,151,10,21,38
+END
+
+IDD_SCROLLBITMAP_DIALOG DIALOGEX 0, 0, 180, 121
+STYLE DS_3DLOOK | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Ciao"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+END
+
+IDD_WECOMPRESSOR_TAB1 DIALOGEX 0, 0, 477, 271
+STYLE WS_CHILD | WS_VISIBLE
+EXSTYLE WS_EX_APPWINDOW
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_SELBUTTON,"Button",BS_OWNERDRAW | BS_ICON | 
+                    BS_NOTIFY | WS_TABSTOP,207,19,15,14
+    CONTROL         "",IDC_SELBUTTON3,"Button",BS_OWNERDRAW | BS_ICON | 
+                    BS_NOTIFY | WS_TABSTOP,206,182,16,14
+    PUSHBUTTON      "&Make File",IDC_BUTTON_MAKEFILE,168,249,54,14,
+                    WS_DISABLED
+    PUSHBUTTON      "&Informations",ID_INFO,261,249,54,14
+    DEFPUSHBUTTON   "&Exit",IDOK,361,249,54,14
+    CONTROL         "    No file specified",IDC_FILE_IMAGE,"Static",
+                    SS_LEFTNOWORDWRAP | SS_NOTIFY | WS_DISABLED | WS_GROUP,
+                    15,22,184,8
+    CONTROL         "    No file specified",IDC_FILE_TIM,"Static",
+                    SS_LEFTNOWORDWRAP | SS_NOTIFY | WS_DISABLED | WS_GROUP,
+                    15,185,184,8
+    GROUPBOX        " Source file name containing all images data ",
+                    IDC_STATIC,7,5,224,154
+    GROUPBOX        " File name of TIM/BMP/RAW/TXT to make ",IDC_STATIC,7,
+                    168,225,59
+    CONTROL         "List1",IDC_LIST_IMAGES,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOLABELWRAP | 
+                    NOT WS_VISIBLE | WS_BORDER | WS_TABSTOP,13,43,209,70
+    CONTROL         "List1",IDC_LIST_PALETTES,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOLABELWRAP | 
+                    NOT WS_VISIBLE | WS_BORDER | WS_TABSTOP,246,44,209,70
+    CONTROL         "",IDC_SELBUTTON2,"Button",BS_OWNERDRAW | BS_ICON | 
+                    BS_NOTIFY | WS_TABSTOP,440,19,16,14
+    CONTROL         "    No file specified",IDC_FILE_PALETTE,"Static",
+                    SS_LEFTNOWORDWRAP | SS_NOTIFY | WS_DISABLED | WS_GROUP,
+                    248,22,184,8
+    GROUPBOX        " Source file name containing all images palette ",
+                    IDC_STATIC,240,5,226,154
+    LTEXT           "0 Palettes found",IDC_NUM_PALETTES,247,120,69,8,NOT 
+                    WS_VISIBLE
+    LTEXT           "0 Images found",IDC_NUM_IMAGES,14,120,69,8,NOT 
+                    WS_VISIBLE
+    GROUPBOX        " Options ",IDC_STATIC,240,168,226,59
+    COMBOBOX        IDC_COMBO_SELFILE,94,205,52,62,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "File format to make",IDC_STATIC,24,207,67,8
+    PUSHBUTTON      "&View Picture",IDC_BUTTON_VIEWIMAGE,52,249,75,14,
+                    WS_DISABLED
+    CONTROL         "Manual",IDC_MANUAL_IMAGES,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,135,43,10
+    EDITTEXT        IDC_EDIT_OFFSET_IMAGES,94,133,30,14,ES_RIGHT | 
+                    ES_AUTOHSCROLL | NOT WS_VISIBLE
+    LTEXT           "Offset",IDC_OFFSET_LAB1,99,120,23,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_X,151,133,20,14,ES_AUTOHSCROLL | ES_NUMBER | 
+                    NOT WS_VISIBLE
+    LTEXT           "Siz.X",IDC_XLAB,151,120,23,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_Y,189,133,20,14,ES_AUTOHSCROLL | ES_NUMBER | 
+                    NOT WS_VISIBLE
+    LTEXT           "Siz.Y",IDC_YLAB,189,120,23,8,NOT WS_VISIBLE
+    LTEXT           "x",IDC_XXLAB,179,135,8,8,NOT WS_VISIBLE
+    CONTROL         "Manual",IDC_MANUAL_PALETTE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,246,135,43,10
+    EDITTEXT        IDC_EDIT_OFFSET_PAL,326,134,30,14,ES_RIGHT | 
+                    ES_AUTOHSCROLL | NOT WS_VISIBLE
+    LTEXT           "Offset",IDC_OFFSET_LAB2,331,121,23,8,NOT WS_VISIBLE
+    LTEXT           "Palette",IDC_PALLAB,382,121,23,8,NOT WS_VISIBLE
+    COMBOBOX        IDC_COMBO_PALETTE,375,135,40,35,CBS_DROPDOWNLIST | NOT 
+                    WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Shirt Texture",IDC_SHIRT_TEXTURE,"Button",
+                    BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,251,184,63,10
+    COMBOBOX        IDC_COMBO_SELGAME,296,204,160,82,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Sel. Game",IDC_STATIC,251,206,40,8
+    CONTROL         "Use the same file",IDC_CHECK_IMAGEANDPAL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,327,184,69,10
+END
+
+IDD_WECOMPRESSOR_TAB2 DIALOGEX 0, 0, 477, 271
+STYLE WS_CHILD | WS_VISIBLE
+EXSTYLE WS_EX_APPWINDOW
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_SELBUTTON3,"Button",BS_OWNERDRAW | BS_ICON | 
+                    BS_NOTIFY | WS_TABSTOP,207,79,15,14
+    PUSHBUTTON      "&Insert",IDC_BUTTON_MAKEFILE,173,250,54,14,
+                    WS_DISABLED
+    PUSHBUTTON      "&Informations",ID_INFO,271,250,54,14
+    DEFPUSHBUTTON   "&Exit",IDOK,369,250,54,14
+    CONTROL         "    No file specified",IDC_FILE_IMAGE,"Static",
+                    SS_LEFTNOWORDWRAP | SS_NOTIFY | WS_DISABLED | WS_GROUP,
+                    15,82,184,8
+    GROUPBOX        " Destination file name of all images data ",
+                    IDC_TITLE_IMAGE,7,65,224,132
+    CONTROL         "List1",IDC_LIST_IMAGES,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOLABELWRAP | 
+                    NOT WS_VISIBLE | WS_BORDER | WS_TABSTOP,13,103,209,70
+    CONTROL         "List1",IDC_LIST_PALETTES,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOLABELWRAP | 
+                    NOT WS_VISIBLE | WS_BORDER | WS_TABSTOP,246,103,209,70
+    CONTROL         "",IDC_SELBUTTON4,"Button",BS_OWNERDRAW | BS_ICON | 
+                    BS_NOTIFY | WS_TABSTOP,440,79,16,14
+    CONTROL         "    No file specified",IDC_FILE_PALETTE,"Static",
+                    SS_LEFTNOWORDWRAP | SS_NOTIFY | WS_DISABLED | WS_GROUP,
+                    248,82,184,8
+    GROUPBOX        " Destination file name of all images palette ",
+                    IDC_TITLE_PALETTE,240,65,226,132
+    RTEXT           "0 Palettes found",IDC_NUM_PALETTES,386,180,69,8,NOT 
+                    WS_VISIBLE
+    RTEXT           "0 Images found",IDC_NUM_IMAGES,152,180,69,8,NOT 
+                    WS_VISIBLE
+    PUSHBUTTON      "&View Picture",IDC_BUTTON_VIEWIMAGE,54,250,75,14,
+                    WS_DISABLED
+    CONTROL         "Manual",IDC_MANUAL_IMAGES,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,13,179,43,10
+    EDITTEXT        IDC_EDIT_OFFSET_IMAGES,101,177,30,14,ES_RIGHT | 
+                    ES_AUTOHSCROLL | NOT WS_VISIBLE
+    LTEXT           "Offset",IDC_OFFSET_LAB1,73,180,23,8,NOT WS_VISIBLE
+    CONTROL         "Manual",IDC_MANUAL_PALETTE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,246,180,43,10
+    EDITTEXT        IDC_EDIT_OFFSET_PAL,336,178,30,14,ES_RIGHT | 
+                    ES_AUTOHSCROLL | NOT WS_VISIBLE
+    LTEXT           "Offset",IDC_OFFSET_LAB2,309,181,23,8,NOT WS_VISIBLE
+    CONTROL         "",IDC_SELBUTTON2,"Button",BS_OWNERDRAW | BS_ICON | 
+                    BS_NOTIFY | WS_DISABLED | WS_TABSTOP,439,19,16,14
+    CONTROL         "    No file specified",IDC_FILE_READPAL,"Static",
+                    SS_LEFTNOWORDWRAP | SS_NOTIFY | WS_DISABLED | WS_GROUP,
+                    248,22,184,8
+    GROUPBOX        " File name of CLUT/PAL palette to load ",
+                    IDC_STATIC,240,5,225,56
+    CONTROL         "",IDC_SELBUTTON,"Button",BS_OWNERDRAW | BS_ICON | 
+                    BS_NOTIFY | WS_TABSTOP,206,19,16,14
+    CONTROL         "    No file specified",IDC_FILE_READIMAGE,"Static",
+                    SS_LEFTNOWORDWRAP | SS_NOTIFY | WS_DISABLED | WS_GROUP,
+                    15,22,184,8
+    GROUPBOX        " File name of TIM/BMP/RAW images to read ",IDC_STATIC,7,5,
+                    224,56
+    COMBOBOX        IDC_COMBO_SELFILE,94,38,41,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Picture file format",IDC_STATIC,18,41,67,8
+    CONTROL         "Automatic Palette",IDC_CHECK_AUTOPAL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,151,40,72,10
+    CONTROL         "Advanced Mode",IDC_ADVANCED,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,245,219,75,10
+    COMBOBOX        IDC_COMBO_SELPAL,306,39,41,49,CBS_DROPDOWNLIST | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Palette file format",IDC_PALETTE_TYPE,252,41,48,8,
+                    WS_DISABLED
+    GROUPBOX        " Options ",IDC_STATIC,7,202,459,40
+    CONTROL         "Shirt Texture",IDC_SHIRT_TEX,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,335,219,63,10
+    COMBOBOX        IDC_COMBO_SELGAME,62,217,160,82,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Select game",IDC_STATIC,18,219,40,8
+    CONTROL         "Use the same file",IDC_CHECK_IMAGEANDPAL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,393,219,69,10
+END
+
+IDD_WECOMPRESSOR_TAB3 DIALOGEX 0, 0, 477, 271
+STYLE WS_CHILD | WS_VISIBLE
+EXSTYLE WS_EX_APPWINDOW
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_SELBUTTON2,"Button",BS_OWNERDRAW | BS_ICON | 
+                    BS_NOTIFY | WS_TABSTOP,186,53,15,14
+    PUSHBUTTON      "&Make Shirt",IDC_BUTTON_MAKETEX,245,250,54,14,
+                    WS_DISABLED
+    PUSHBUTTON      "&Informations",ID_INFO,361,250,54,14
+    DEFPUSHBUTTON   "&Exit",IDOK,419,250,44,14
+    CONTROL         "    No file specified",IDC_FILE_TEXGIOC1,"Static",
+                    SS_LEFTNOWORDWRAP | SS_NOTIFY | WS_DISABLED | WS_GROUP,
+                    24,56,154,8
+    GROUPBOX        " Uniform 1 (Home) ",IDC_STATIC,7,36,224,155
+    GROUPBOX        " Name of the game type shirt ",IDC_STATIC,
+                    240,5,223,30
+    CONTROL         "",IDC_SELBUTTON,"Button",BS_OWNERDRAW | BS_ICON | 
+                    BS_NOTIFY | WS_TABSTOP,206,15,16,14
+    CONTROL         "    No file specified",IDC_FILE_NEWTEX,"Static",
+                    SS_LEFTNOWORDWRAP | SS_NOTIFY | WS_DISABLED | WS_GROUP,
+                    15,18,184,8
+    GROUPBOX        " File name of TEX to make ",IDC_STATIC,7,5,224,30
+    COMBOBOX        IDC_COMBO_SELGAME,253,16,200,49,CBS_DROPDOWNLIST | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        " Player And GoalKeeper Texture ",IDC_TEXGIOCTEXT1,14,43,
+                    210,42
+    CONTROL         "",IDC_VIEWBUTTON2,"Button",BS_OWNERDRAW | BS_ICON | 
+                    BS_NOTIFY | WS_DISABLED | WS_TABSTOP,204,53,15,14
+    CONTROL         "",IDC_SELBUTTON3,"Button",BS_OWNERDRAW | BS_ICON | 
+                    BS_NOTIFY | WS_DISABLED | WS_TABSTOP,204,94,15,14
+    CONTROL         "    No file specified",IDC_FILE_PALGIOC1,"Static",
+                    SS_LEFTNOWORDWRAP | SS_NOTIFY | WS_DISABLED | WS_GROUP,
+                    24,97,138,8
+    GROUPBOX        " Player Palette ",IDC_STATIC,14,85,210,30
+    CONTROL         "",IDC_SELBUTTON4B,"Button",BS_OWNERDRAW | BS_ICON | 
+                    BS_NOTIFY | WS_TABSTOP,204,125,15,14
+    CONTROL         "    No file specified",IDC_FILE_PALPORT1,"Static",
+                    SS_LEFTNOWORDWRAP | SS_NOTIFY | WS_DISABLED | WS_GROUP,
+                    24,128,138,8
+    GROUPBOX        " GoalKeeper Palette ",IDC_STATIC,14,115,210,30
+    CONTROL         "",IDC_SELBUTTON5,"Button",BS_OWNERDRAW | BS_ICON | 
+                    BS_NOTIFY | WS_TABSTOP,186,156,15,14
+    CONTROL         "    No file specified",IDC_FILE_TEXMANLUN1,"Static",
+                    SS_LEFTNOWORDWRAP | SS_NOTIFY | WS_DISABLED | WS_GROUP,
+                    24,159,154,8
+    GROUPBOX        " Texture Long Sleeves ",IDC_MANLUNTEXT1,14,146,210,42
+    CONTROL         "",IDC_VIEWBUTTON5,"Button",BS_OWNERDRAW | BS_ICON | 
+                    BS_NOTIFY | WS_DISABLED | WS_TABSTOP,204,156,15,14
+    CONTROL         "",IDC_SELBUTTON12,"Button",BS_OWNERDRAW | BS_ICON | 
+                    BS_NOTIFY | WS_TABSTOP,418,202,15,14
+    CONTROL         "    No file specified",IDC_FILE_TEXREFREE,"Static",
+                    SS_LEFTNOWORDWRAP | SS_NOTIFY | WS_DISABLED | WS_GROUP,
+                    256,205,154,8
+    GROUPBOX        " Referee Texture ",IDC_STATIC,246,192,210,42
+    CONTROL         "",IDC_VIEWBUTTON12,"Button",BS_OWNERDRAW | BS_ICON | 
+                    BS_NOTIFY | WS_DISABLED | WS_TABSTOP,436,202,15,14
+    CONTROL         "",IDC_SELBUTTON6,"Button",BS_OWNERDRAW | BS_ICON | 
+                    BS_NOTIFY | WS_TABSTOP,186,202,15,14
+    CONTROL         "    No file specified",IDC_FILE_TEXFLAG,"Static",
+                    SS_LEFTNOWORDWRAP | SS_NOTIFY | WS_DISABLED | WS_GROUP,
+                    24,205,154,8
+    GROUPBOX        " MiniFlag Texture ",IDC_STATIC,14,192,210,42
+    CONTROL         "",IDC_VIEWBUTTON6,"Button",BS_OWNERDRAW | BS_ICON | 
+                    BS_NOTIFY | WS_DISABLED | WS_TABSTOP,204,202,15,14
+    CONTROL         "",IDC_SELBUTTON7,"Button",BS_OWNERDRAW | BS_ICON | 
+                    BS_NOTIFY | WS_DISABLED | WS_TABSTOP,204,243,15,14
+    CONTROL         "    No file specified",IDC_FILE_PALFLAG,"Static",
+                    SS_LEFTNOWORDWRAP | SS_NOTIFY | WS_DISABLED | WS_GROUP,
+                    24,247,138,8
+    GROUPBOX        " MiniFlag Palette ",IDC_STATIC,14,234,210,30
+    GROUPBOX        " Uniform 2 (Away) ",IDC_STATIC,240,36,224,155
+    COMBOBOX        IDC_COMBO_SELTEXGIO1,57,69,41,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "File Type",IDC_STATIC,23,71,28,8
+    COMBOBOX        IDC_COMBO_SELAUTOGIO1,168,69,52,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Automatic Palette",IDC_STATIC,105,71,62,8
+    COMBOBOX        IDC_COMBO_SELTEXMAN1,57,172,41,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "File Type",IDC_TYPETEXT1,23,174,28,8
+    COMBOBOX        IDC_COMBO_SELAUTOMAN1,170,172,50,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Automatic Palette",IDC_AUTOPALTEXT1,106,174,63,8
+    COMBOBOX        IDC_COMBO_SELTEXTIFO,58,218,41,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "File Type",IDC_STATIC,23,220,28,8
+    LTEXT           "Automatic Palette",IDC_STATIC,106,220,63,8
+    COMBOBOX        IDC_COMBO_SELTEXREFREE,292,219,41,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "File Type",IDC_STATIC,258,221,28,8
+    CONTROL         "",IDC_SELBUTTON8,"Button",BS_OWNERDRAW | BS_ICON | 
+                    BS_NOTIFY | WS_TABSTOP,418,53,15,14
+    CONTROL         "    No file specified",IDC_FILE_TEXGIOC2,"Static",
+                    SS_LEFTNOWORDWRAP | SS_NOTIFY | WS_DISABLED | WS_GROUP,
+                    256,56,154,8
+    GROUPBOX        " Player And GoalKeeper Texture ",IDC_TEXGIOCTEXT2,246,43,
+                    210,42
+    CONTROL         "",IDC_VIEWBUTTON8,"Button",BS_OWNERDRAW | BS_ICON | 
+                    BS_NOTIFY | WS_DISABLED | WS_TABSTOP,436,53,15,14
+    CONTROL         "",IDC_SELBUTTON9,"Button",BS_OWNERDRAW | BS_ICON | 
+                    BS_NOTIFY | WS_DISABLED | WS_TABSTOP,436,93,15,14
+    CONTROL         "    No file specified",IDC_FILE_PALGIOC2,"Static",
+                    SS_LEFTNOWORDWRAP | SS_NOTIFY | WS_DISABLED | WS_GROUP,
+                    256,96,138,8
+    GROUPBOX        " Player Palette ",IDC_STATIC,246,85,210,30
+    CONTROL         "",IDC_SELBUTTON10,"Button",BS_OWNERDRAW | BS_ICON | 
+                    BS_NOTIFY | WS_TABSTOP,436,125,15,14
+    CONTROL         "    No file specified",IDC_FILE_PALPORT2,"Static",
+                    SS_LEFTNOWORDWRAP | SS_NOTIFY | WS_DISABLED | WS_GROUP,
+                    256,128,138,8
+    GROUPBOX        " GoalKeeper Palette ",IDC_STATIC,246,115,210,30
+    CONTROL         "",IDC_SELBUTTON11,"Button",BS_OWNERDRAW | BS_ICON | 
+                    BS_NOTIFY | WS_TABSTOP,418,156,15,14
+    CONTROL         "    No file specified",IDC_FILE_TEXMANLUN2,"Static",
+                    SS_LEFTNOWORDWRAP | SS_NOTIFY | WS_DISABLED | WS_GROUP,
+                    256,158,154,8
+    GROUPBOX        " Texture Long Sleeves ",IDC_MANLUNTEXT2,246,145,210,
+                    42
+    CONTROL         "",IDC_VIEWBUTTON11,"Button",BS_OWNERDRAW | BS_ICON | 
+                    BS_NOTIFY | WS_DISABLED | WS_TABSTOP,436,156,15,14
+    COMBOBOX        IDC_COMBO_SELTEXGIO2,290,69,41,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "File Type",IDC_STATIC,256,71,28,8
+    COMBOBOX        IDC_COMBO_SELAUTOGIO2,400,69,53,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Automatic Palette",IDC_STATIC,337,71,61,8
+    LTEXT           "File Type",IDC_TYPETEXT2,256,174,28,8
+    COMBOBOX        IDC_COMBO_SELAUTOMAN2,403,172,50,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Automatic Palette",IDC_AUTOPALTEXT2,338,174,63,8
+    COMBOBOX        IDC_COMBO_SELAUTOFLAG,169,218,51,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_SELTEXMAN2,290,171,41,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_SELPALGIOC1,166,95,36,52,CBS_DROPDOWNLIST | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_SELPALGIOC2,398,94,36,54,CBS_DROPDOWNLIST | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_SELPALPORT1,166,125,36,51,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_SELPALPORT2,398,126,36,61,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_SELPALFLAG,166,244,36,55,CBS_DROPDOWNLIST | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "256x128 Mode",IDC_256X128MODE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,245,237,72,10
+    PUSHBUTTON      "&Extract Shirts",IDC_BUTTON_EXTRACTTEX,303,250,54,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041004b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "WECompressor\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "WECompressor\0"
+            VALUE "LegalCopyright", "Copyright (C) 2003\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "WECompressor.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "WECompressor Applicazione\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x410, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOXOLD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_WECOMPRESSOR_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 490
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 339
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 181
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_SCROLLBITMAP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 171
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 114
+    END
+
+    IDD_WECOMPRESSOR_TAB1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 470
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 264
+        HORZGUIDE, 171
+    END
+
+    IDD_WECOMPRESSOR_TAB2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 470
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 264
+    END
+
+    IDD_WECOMPRESSOR_TAB3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 470
+        VERTGUIDE, 23
+        VERTGUIDE, 256
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 264
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_LOGO                BITMAP  DISCARDABLE     "res\\WECompressor.bmp"
+IDB_LOGO_WENDETTA       BITMAP  DISCARDABLE     "res\\wendetta.bmp"
+IDB_LOGO_CARP           BITMAP  DISCARDABLE     "res\\carp.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_WECOMPRESSOR_TAB1 DLGINIT
+BEGIN
+    IDC_COMBO_SELFILE, 0x403, 4, 0
+0x4954, 0x004d, 
+    IDC_COMBO_SELFILE, 0x403, 4, 0
+0x4d42, 0x0050, 
+    IDC_COMBO_SELFILE, 0x403, 8, 0
+0x4152, 0x2b57, 0x4150, 0x004c, 
+    IDC_COMBO_SELFILE, 0x403, 4, 0
+0x5854, 0x0054, 
+    IDC_COMBO_SELFILE, 0x403, 6, 0
+0x7554, 0x7474, 0x0069, 
+    IDC_COMBO_PALETTE, 0x403, 6, 0
+0x2034, 0x4942, 0x0054, 
+    IDC_COMBO_PALETTE, 0x403, 6, 0
+0x2038, 0x4942, 0x0054, 
+    IDC_COMBO_SELGAME, 0x403, 41, 0
+0x6957, 0x6e6e, 0x6e69, 0x2067, 0x6c45, 0x7665, 0x6e65, 0x3220, 0x3030, 
+0x2030, 0x2d75, 0x3332, 0x4f20, 0x2d6c, 0x4c4a, 0x322f, 0x3030, 0x2f31, 
+0x3032, 0x3230, "\000" 
+    IDC_COMBO_SELGAME, 0x403, 17, 0
+0x6957, 0x6e6e, 0x6e69, 0x2067, 0x6c45, 0x7665, 0x6e65, 0x3420, "\000" 
+    IDC_COMBO_SELGAME, 0x403, 33, 0
+0x6957, 0x6e6e, 0x6e69, 0x2067, 0x6c45, 0x7665, 0x6e65, 0x3320, 0x4620, 
+0x6e69, 0x6c61, 0x4520, 0x6f76, 0x756c, 0x6974, 0x6e6f, "\000" 
+    IDC_COMBO_SELGAME, 0x403, 17, 0
+0x6957, 0x6e6e, 0x6e69, 0x2067, 0x6c45, 0x7665, 0x6e65, 0x3320, "\000" 
+    IDC_COMBO_SELGAME, 0x403, 21, 0
+0x6957, 0x6e6e, 0x6e69, 0x2067, 0x6c45, 0x7665, 0x6e65, 0x3920, 0x2f38, 
+0x3939, "\000" 
+    IDC_COMBO_SELGAME, 0x403, 21, 0
+0x6957, 0x6e6e, 0x6e69, 0x2067, 0x6c45, 0x7665, 0x6e65, 0x3920, 0x2f37, 
+0x3839, "\000" 
+    0
+END
+
+IDD_WECOMPRESSOR_TAB2 DLGINIT
+BEGIN
+    IDC_COMBO_SELFILE, 0x403, 4, 0
+0x4d42, 0x0050, 
+    IDC_COMBO_SELFILE, 0x403, 4, 0
+0x4954, 0x004d, 
+    IDC_COMBO_SELFILE, 0x403, 4, 0
+0x4152, 0x0057, 
+    IDC_COMBO_SELPAL, 0x403, 5, 0
+0x4c43, 0x5455, "\000" 
+    IDC_COMBO_SELPAL, 0x403, 4, 0
+0x4150, 0x004c, 
+    IDC_COMBO_SELGAME, 0x403, 41, 0
+0x6957, 0x6e6e, 0x6e69, 0x2067, 0x6c45, 0x7665, 0x6e65, 0x3220, 0x3030, 
+0x2030, 0x2d75, 0x3332, 0x4f20, 0x2d6c, 0x4c4a, 0x322f, 0x3030, 0x2f31, 
+0x3032, 0x3230, "\000" 
+    IDC_COMBO_SELGAME, 0x403, 17, 0
+0x6957, 0x6e6e, 0x6e69, 0x2067, 0x6c45, 0x7665, 0x6e65, 0x3420, "\000" 
+    IDC_COMBO_SELGAME, 0x403, 33, 0
+0x6957, 0x6e6e, 0x6e69, 0x2067, 0x6c45, 0x7665, 0x6e65, 0x3320, 0x4620, 
+0x6e69, 0x6c61, 0x4520, 0x6f76, 0x756c, 0x6974, 0x6e6f, "\000" 
+    IDC_COMBO_SELGAME, 0x403, 17, 0
+0x6957, 0x6e6e, 0x6e69, 0x2067, 0x6c45, 0x7665, 0x6e65, 0x3320, "\000" 
+    IDC_COMBO_SELGAME, 0x403, 21, 0
+0x6957, 0x6e6e, 0x6e69, 0x2067, 0x6c45, 0x7665, 0x6e65, 0x3920, 0x2f38, 
+0x3939, "\000" 
+    IDC_COMBO_SELGAME, 0x403, 21, 0
+0x6957, 0x6e6e, 0x6e69, 0x2067, 0x6c45, 0x7665, 0x6e65, 0x3920, 0x2f37, 
+0x3839, "\000" 
+    0
+END
+
+IDD_WECOMPRESSOR_TAB3 DLGINIT
+BEGIN
+    IDC_COMBO_SELGAME, 0x403, 54, 0
+0x6957, 0x6e6e, 0x6e69, 0x2067, 0x6c45, 0x7665, 0x6e65, 0x3220, 0x3030, 
+0x2030, 0x2d75, 0x3332, 0x4f20, 0x796c, 0x706d, 0x6369, 0x4a2c, 0x2c4c, 
+0x4c4a, 0x3220, 0x322f, 0x3030, 0x2031, 0x4c4a, 0x322f, 0x3030, 0x0032, 
+
+    IDC_COMBO_SELGAME, 0x403, 17, 0
+0x6957, 0x6e6e, 0x6e69, 0x2067, 0x6c45, 0x7665, 0x6e65, 0x3420, "\000" 
+    IDC_COMBO_SELGAME, 0x403, 17, 0
+0x6957, 0x6e6e, 0x6e69, 0x2067, 0x6c45, 0x7665, 0x6e65, 0x3320, "\000" 
+    IDC_COMBO_SELTEXGIO1, 0x403, 4, 0
+0x4d42, 0x0050, 
+    IDC_COMBO_SELTEXGIO1, 0x403, 4, 0
+0x4954, 0x004d, 
+    IDC_COMBO_SELTEXGIO1, 0x403, 4, 0
+0x4942, 0x004e, 
+    IDC_COMBO_SELTEXGIO1, 0x403, 4, 0
+0x4152, 0x0057, 
+    IDC_COMBO_SELAUTOGIO1, 0x403, 3, 0
+0x6f4e, "\000" 
+    IDC_COMBO_SELAUTOGIO1, 0x403, 7, 0
+0x6c50, 0x7961, 0x7265, "\000" 
+    IDC_COMBO_SELAUTOGIO1, 0x403, 11, 0
+0x6f47, 0x6c61, 0x654b, 0x7065, 0x7265, "\000" 
+    IDC_COMBO_SELTEXMAN1, 0x403, 4, 0
+0x4d42, 0x0050, 
+    IDC_COMBO_SELTEXMAN1, 0x403, 4, 0
+0x4954, 0x004d, 
+    IDC_COMBO_SELTEXMAN1, 0x403, 4, 0
+0x4942, 0x004e, 
+    IDC_COMBO_SELTEXMAN1, 0x403, 4, 0
+0x4152, 0x0057, 
+    IDC_COMBO_SELAUTOMAN1, 0x403, 3, 0
+0x6f4e, "\000" 
+    IDC_COMBO_SELAUTOMAN1, 0x403, 7, 0
+0x6c50, 0x7961, 0x7265, "\000" 
+    IDC_COMBO_SELAUTOMAN1, 0x403, 11, 0
+0x6f47, 0x6c61, 0x654b, 0x7065, 0x7265, "\000" 
+    IDC_COMBO_SELTEXTIFO, 0x403, 4, 0
+0x4d42, 0x0050, 
+    IDC_COMBO_SELTEXTIFO, 0x403, 4, 0
+0x4954, 0x004d, 
+    IDC_COMBO_SELTEXTIFO, 0x403, 4, 0
+0x4942, 0x004e, 
+    IDC_COMBO_SELTEXTIFO, 0x403, 4, 0
+0x4152, 0x0057, 
+    IDC_COMBO_SELTEXREFREE, 0x403, 4, 0
+0x4d42, 0x0050, 
+    IDC_COMBO_SELTEXREFREE, 0x403, 4, 0
+0x4954, 0x004d, 
+    IDC_COMBO_SELTEXREFREE, 0x403, 4, 0
+0x4942, 0x004e, 
+    IDC_COMBO_SELTEXREFREE, 0x403, 4, 0
+0x4152, 0x0057, 
+    IDC_COMBO_SELTEXGIO2, 0x403, 4, 0
+0x4d42, 0x0050, 
+    IDC_COMBO_SELTEXGIO2, 0x403, 4, 0
+0x4954, 0x004d, 
+    IDC_COMBO_SELTEXGIO2, 0x403, 4, 0
+0x4942, 0x004e, 
+    IDC_COMBO_SELTEXGIO2, 0x403, 4, 0
+0x4152, 0x0057, 
+    IDC_COMBO_SELAUTOGIO2, 0x403, 3, 0
+0x6f4e, "\000" 
+    IDC_COMBO_SELAUTOGIO2, 0x403, 7, 0
+0x6c50, 0x7961, 0x7265, "\000" 
+    IDC_COMBO_SELAUTOGIO2, 0x403, 11, 0
+0x6f47, 0x6c61, 0x654b, 0x7065, 0x7265, "\000" 
+    IDC_COMBO_SELAUTOMAN2, 0x403, 3, 0
+0x6f4e, "\000" 
+    IDC_COMBO_SELAUTOMAN2, 0x403, 7, 0
+0x6c50, 0x7961, 0x7265, "\000" 
+    IDC_COMBO_SELAUTOMAN2, 0x403, 11, 0
+0x6f47, 0x6c61, 0x654b, 0x7065, 0x7265, "\000" 
+    IDC_COMBO_SELAUTOFLAG, 0x403, 3, 0
+0x6f4e, "\000" 
+    IDC_COMBO_SELAUTOFLAG, 0x403, 4, 0
+0x6559, 0x0073, 
+    IDC_COMBO_SELTEXMAN2, 0x403, 4, 0
+0x4d42, 0x0050, 
+    IDC_COMBO_SELTEXMAN2, 0x403, 4, 0
+0x4954, 0x004d, 
+    IDC_COMBO_SELTEXMAN2, 0x403, 4, 0
+0x4942, 0x004e, 
+    IDC_COMBO_SELTEXMAN2, 0x403, 4, 0
+0x4152, 0x0057, 
+    IDC_COMBO_SELPALGIOC1, 0x403, 5, 0
+0x4c43, 0x5455, "\000" 
+    IDC_COMBO_SELPALGIOC1, 0x403, 4, 0
+0x4150, 0x004c, 
+    IDC_COMBO_SELPALGIOC1, 0x403, 4, 0
+0x4d42, 0x0050, 
+    IDC_COMBO_SELPALGIOC1, 0x403, 4, 0
+0x4954, 0x004d, 
+    IDC_COMBO_SELPALGIOC2, 0x403, 5, 0
+0x4c43, 0x5455, "\000" 
+    IDC_COMBO_SELPALGIOC2, 0x403, 4, 0
+0x4150, 0x004c, 
+    IDC_COMBO_SELPALGIOC2, 0x403, 4, 0
+0x4d42, 0x0050, 
+    IDC_COMBO_SELPALGIOC2, 0x403, 4, 0
+0x4954, 0x004d, 
+    IDC_COMBO_SELPALPORT1, 0x403, 5, 0
+0x4c43, 0x5455, "\000" 
+    IDC_COMBO_SELPALPORT1, 0x403, 4, 0
+0x4150, 0x004c, 
+    IDC_COMBO_SELPALPORT1, 0x403, 4, 0
+0x4d42, 0x0050, 
+    IDC_COMBO_SELPALPORT1, 0x403, 4, 0
+0x4954, 0x004d, 
+    IDC_COMBO_SELPALPORT2, 0x403, 5, 0
+0x4c43, 0x5455, "\000" 
+    IDC_COMBO_SELPALPORT2, 0x403, 4, 0
+0x4150, 0x004c, 
+    IDC_COMBO_SELPALPORT2, 0x403, 4, 0
+0x4d42, 0x0050, 
+    IDC_COMBO_SELPALPORT2, 0x403, 4, 0
+0x4954, 0x004d, 
+    IDC_COMBO_SELPALFLAG, 0x403, 5, 0
+0x4c43, 0x5455, "\000" 
+    IDC_COMBO_SELPALFLAG, 0x403, 4, 0
+0x4150, 0x004c, 
+    IDC_COMBO_SELPALFLAG, 0x403, 4, 0
+0x4d42, 0x0050, 
+    IDC_COMBO_SELPALFLAG, 0x403, 4, 0
+0x4954, 0x004d, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "Infor&mations about WECompressor..."
+    IDS_HELP_WECOMPRESSOR   "WE Compressor 0.5 - CopyRight © 2003 by Walxer"
+    IDS_BUTTON_TAB2_INSERTFILE "&Insert"
+    IDS_BUTTON_TAB2_MAKEFILE "&Make File"
+    IDS_ERROR_MESSAGEBOX    "Warning, error!"
+    IDS_ERROR_TAB_LENGTH    "Corrupt"
+    IDS_ERROR_TAB1_ALL      "Error! One of TIM,BMP,RAW+PAL files wasn't created,there were problems..."
+    IDS_ERROR_TAB1_BMP      "Error! The BMP file wasn't created,there were problems..."
+    IDS_ERROR_TAB1_RAW      "Error! The RAW+PAL wasn't created,there were problems..."
+    IDS_ERROR_TAB1_TIM      "Error! The TIM file wasn't created,there were problems..."
+    IDS_ERROR_TAB1_TXT      "Error! The TXT file wasn't created,there were problems..."
+    IDS_ERROR_TAB2_INSERTBIN "Error! The BIN files were not updated,there were problems..."
+    IDS_ERROR_TAB2_MAKEBIN  "Error! The BIN or CLUT file wasn't created,cause there were problems..."
+    IDS_ERROR_TAB3_EXTRACTTEX "Error! The files inside TEX were not extracted,there were problems..."
+    IDS_ERROR_TAB3_MAKETEX  "Error! The TEX file wasn't created,there were problems..."
+    IDS_FILTER_ALL          "File Image for all formats (*.*)|*.*|All files (*.*)|*.*|"
+    IDS_FILTER_BIN          "All BIN file types|*.BIN|File BIN WE (*.bin)|*.bin|All files (*.*)|*.*|"
+    IDS_FILTER_BINCOMPR     "BIN Compressed File (*.bin)|*.bin|All files (*.*)|*.*|"
+    IDS_FILTER_BMP          "File Image BMP (*.bmp)|*.bmp|All files (*.*)|*.*|"
+    IDS_FILTER_CLU          "File Palette CLUT (*.clu,*.clut)|*.clu;*.clut|All files (*.*)|*.*|"
+    IDS_FILTER_PAL          "File Palette PAL (*.pal)|*.pal|All files (*.*)|*.*|"
+    IDS_FILTER_RAW          "File Image RAW+PAL (*.raw)|*.raw|All files (*.*)|*.*|"
+    IDS_FILTER_SRC          "All files (*.*)|*.*|"
+    IDS_FILTER_TEX          "Tex BIN File (*.bin)|*.bin|All files (*.*)|*.*|"
+    IDS_FILTER_TIM          "File Image TIM (*.tim)|*.tim|All files (*.*)|*.*|"
+    IDS_FILTER_TXT          "All TXT file types (*.txt)|*.txt|All files (*.*)|*.*|"
+    IDS_HELP_COMBO_PAL      "Select the number of colors of the palette in bit:<br>8 BIT = 256 colors  -  4 BIT = 16 colors."
+    IDS_HELP_EXIT           "Exit from WE Compressor."
+    IDS_HELP_IMAGE_X        "Select the horizontal size of image (X)."
+    IDS_HELP_IMAGE_Y        "Select the vertical size of image (Y)."
+    IDS_HELP_INFO           "Show you some important informations about the use of the tool."
+    IDS_HELP_INFORMATION_TITLE "<u><b>Information</b></u><br><br>"
+    IDS_HELP_MANUAL_IMAGE   "Select offset and image properties in customized mode."
+    IDS_HELP_MANUAL_PAL     "Select offset and colors number in customized mode."
+    IDS_HELP_OFFSET_IMAGE   "Select the launch offset of the compressed image block in hexadecimal."
+    IDS_HELP_OFFSET_PAL     "Select the launch offset of the palette colors in hexadecimal."
+    IDS_HELP_TAB_IMAGEPAL   "Use automatically as palette file name the same BIN specified for images."
+    IDS_HELP_TAB1_MAKEFILE  "Make the picture file specified up using selected data and palette."
+    IDS_HELP_TAB1_SELBUTTON "Select source file name containing all images data."
+    IDS_HELP_TAB1_SELBUTTON2 "Select source file name containing all images palette."
+    IDS_HELP_TAB1_SELBUTTON3 "Select destination file TIM to make."
+    IDS_HELP_TAB1_SELBUTTON3B "Select destination file BMP to make."
+    IDS_HELP_TAB1_SELBUTTON3C "Select destination file RAW to make."
+    IDS_HELP_TAB1_SELBUTTON3D "Select destination file TXT to make."
+    IDS_HELP_TAB1_SELBUTTON3E "Select destination file to make."
+    IDS_HELP_TAB1_SELBUTTON4 "Select source file containing data."
+    IDS_HELP_TAB1_SELFILE   "Select the format of the image to make."
+    IDS_HELP_TAB1_SELGAME   "Select game for the encoding of the offsets of BIN file."
+    IDS_HELP_TAB1_TEXSHIRT  "Consider the file BIN containing uniform offsets."
+    IDS_HELP_TAB1_VIEW      "Show the selected image with the selected palette."
+    IDS_HELP_TAB2_ADVANCED  "Use advanced mode for direct insertion after compression,<br>or use simple mode to compress directly on the 2 files to make."
+    IDS_HELP_TAB2_AUTOPAL   "Use the palette that is inside the source file of image data."
+    IDS_HELP_TAB2_INSERTFILE "Insert the compressed image inside BIN file and palette specified in the other BIN file."
+    IDS_HELP_TAB2_MAKEFILE  "Make the BIN compressed image file and the palette file specified."
+    IDS_HELP_TAB2_SELBUTTON "Select BMP file source to read."
+    IDS_HELP_TAB2_SELBUTTON2 "Select CLUT palette source to read."
+    IDS_HELP_TAB2_SELBUTTON2B "Select PAL palette source to read."
+    IDS_HELP_TAB2_SELBUTTON3 "Select destination file name containing images data."
+    IDS_HELP_TAB2_SELBUTTON3B "Select destination file name containing compressed image data."
+    IDS_HELP_TAB2_SELBUTTON4 "Select destination file name containing the palettes."
+    IDS_HELP_TAB2_SELBUTTON4B "Select destination file name containing the palette."
+    IDS_HELP_TAB2_SELBUTTONB "Select TIM file source to read."
+    IDS_HELP_TAB2_SELBUTTONC "Select RAW file source to read."
+    IDS_HELP_TAB2_SELFILE   "Select the format of the image to be read."
+    IDS_HELP_TAB2_SELPAL    "Select the format of the palette to be read."
+    IDS_HELP_TAB2_VIEW      "Show the source image with the selected source palette."
+    IDS_HELP_TAB3_256X128MODE "Select the 256x128 texture mode for Players/GoalKeeper,<br>comprehensive also of Long Sleeves."
+    IDS_HELP_TAB3_EXTRACTTEX "Extract ALL the Images/Palettes from the file TEX to be specified."
+    IDS_HELP_TAB3_MAKETEX   "Make the TEX file specified starting from all selected components."
+    IDS_HELP_TAB3_SELAUTO   "Use the same palette of the image file specified also for the Player/Keeper Palette."
+    IDS_HELP_TAB3_SELAUTOFLAG "Use the same palette of the image file of MiniFlag also for MiniFlag Palette."
+    IDS_HELP_TAB3_SELBUTTON "Select the name of file TEX BIN to make."    
+    IDS_HELP_TAB3_SELBUTTON2 "Select the file of image 128x128 containing the Player/Goalkeeper Texture first uniform."
+    IDS_HELP_TAB3_SELBUTTON2B "Select the file of image 256x128 containing the Player/Goalkeeper Texture first uniform,<br>comprehensive of Long Sleeves."
+    IDS_HELP_TAB3_SELBUTTON3 "Select the file of Player Palette first uniform."
+    IDS_HELP_TAB3_SELBUTTON4 "Select the file of GoalKeeper Palette first uniform."
+    IDS_HELP_TAB3_SELBUTTON5 "Select the file of image 128x128 containing the Long Sleeves Texture first uniform."
+    IDS_HELP_TAB3_SELBUTTON6 "Select the file of image 128x128 containing the MiniFlag Texture."
+    IDS_HELP_TAB3_SELBUTTON7 "Select the file of MiniFlag Palette."
+    IDS_HELP_TAB3_SELBUTTON8 "Select the file of image 128x128 containing the Player/Goalkeeper Texture second uniform."
+    IDS_HELP_TAB3_SELBUTTON8B "Select the file of image 256x128 containing the Player/Goalkeeper Texture second uniform,<br>comprehensive of Long Sleeves."
+    IDS_HELP_TAB3_SELBUTTON9 "Select the file of Player Palette second uniform."
+    IDS_HELP_TAB3_SELBUTTON10 "Select the file of GoalKeeper Palette second uniform."
+    IDS_HELP_TAB3_SELBUTTON11 "Select the file of image 128x128 containing the Long Sleeves Texture second uniform."
+    IDS_HELP_TAB3_SELBUTTON12 "Select the file of image 128x128 containing the Referee Texture."
+    IDS_HELP_TAB3_SELFILE   "Select the format of the image specified up."
+    IDS_HELP_TAB3_SELPAL    "Select the format of the palette specified before."
+    IDS_HELP_TAB3_VIEWBUTTON "Show the texture image selected."
+    IDS_IMAGETABCOL2        "Offset"
+    IDS_IMAGETABCOL3        "Siz X"
+    IDS_IMAGETABCOL4        "Siz Y"
+    IDS_IMAGETABCOL5        "Vram X"
+    IDS_IMAGETABCOL6        "Vram Y"
+    IDS_IMAGETABCOL7        "Length"
+    IDS_IMAGETABCOL8        "Offset Type"
+    IDS_INFO_ALLOK          "File TIM,BMP,RAW+PAL succesfully made!"
+    IDS_INFO_BMPOK          "File BMP succesfully made!"
+    IDS_INFO_CREATEDIR      "Do you like to continue extracting all files inside the directory"
+    IDS_INFO_EXTRACTTEX_OK  "Extraction of all TEX files succesfully done!"
+    IDS_INFO_IMAGES_FOUND   "Images found"
+    IDS_INFO_INSERTBIN_OK   "File BIN compressed and CLUT succesfully inserted!"
+    IDS_INFO_INSERTBLOCK1   "Do you like to insert the block of "
+    IDS_INFO_INSERTBLOCK2   "bytes over the block of"
+    IDS_INFO_INSERTBLOCK_NO "[Tips: NO is suggested!!! The block is too big in size,and you can corrupt the file.]"
+    IDS_INFO_INSERTBLOCK_YES "[Tips: YES is suggested]"
+    IDS_INFO_MAKEBIN_OK     "File BIN compressed and CLUT succesfully made!"
+    IDS_INFO_MAKETEX_OK     "File TEX of shirt succesfully made!"
+    IDS_INFO_NO_IMAGES_FOUND "Warning! There are no images on file BIN."
+    IDS_INFO_NO_PALETTES_FOUND "Warning! There are no palettes on file BIN."
+    IDS_INFO_PALETTES_FOUND "Palettes found"
+    IDS_INFO_RAWOK          "File RAW+PAL succesfully made!"
+    IDS_INFO_TAB1_NEWALL    "Insert name of file to make"
+    IDS_INFO_TAB1_NEWBMP    "Insert name of file BMP to make"
+    IDS_INFO_TAB1_NEWRAW    "Insert name of file RAW+PAL to make"
+    IDS_INFO_TAB1_NEWTIM    "Insert name of file TIM to make"
+    IDS_INFO_TAB1_NEWTXT    "Insert name of file TXT to make"
+    IDS_INFO_TAB1_OPENIMAGE "Open source file of data"
+    IDS_INFO_TAB1_OPENPALETTE "Open source file of palettes"
+    IDS_INFO_TAB2_NEWBIN    "Insert file name of BIN to make"
+    IDS_INFO_TAB2_NEWPAL    "Insert file name of CLUT to make"
+    IDS_INFO_TAB2_OPENBMP   "Open BMP picture file"
+    IDS_INFO_TAB2_OPENCLUT  "Open CLUT palette file of image"
+    IDS_INFO_TAB2_OPENIMAGE "Open destination file containing the images data."
+    IDS_INFO_TAB2_OPENPAL   "Open PAL palette file of image"
+    IDS_INFO_TAB2_OPENPALETTE "Open destination file containing the images palette."
+    IDS_INFO_TAB2_OPENRAW   "Open RAW picture file"
+    IDS_INFO_TAB2_OPENTIM   "Open TIM picture file"
+    IDS_INFO_TAB2_PALETTE1  " Destination file name containing images palette "
+    IDS_INFO_TAB2_PALETTE2  " Destination file name containing image palette "
+    IDS_INFO_TAB2_TITLE1    " Destination file name containing images data "
+    IDS_INFO_TAB2_TITLE2    " Destination file name containing image data "
+    IDS_INFO_TAB3_NEWTEX    "Insert file name of TEX to make"
+    IDS_INFO_TAB3_OPENFLAG  "Open file Texture MiniFlag"
+    IDS_INFO_TAB3_OPENFLAGPAL "Open file Palette MiniFlag"
+    IDS_INFO_TAB3_OPENPALGIOC1 "Open file Palette Player 1st uniform"
+    IDS_INFO_TAB3_OPENPALGIOC2 "Open file Palette Player 2nd uniform"
+    IDS_INFO_TAB3_OPENPALPORT1 "Open file Palette GoalKeeper 1st uniform"
+    IDS_INFO_TAB3_OPENPALPORT2 "Open file Palette GoalKeeper 2nd uniform"
+    IDS_INFO_TAB3_OPENREFREE "Open file Referee Texture"
+    IDS_INFO_TAB3_OPENTEX   "Open file TEX of shirts"
+    IDS_INFO_TAB3_OPENTEXGIOC1 "Open file Texture Player/GoalKeeper 1st uniform"
+    IDS_INFO_TAB3_OPENTEXGIOC2 "Open file Texture Player/GoalKeeper 2nd uniform"
+    IDS_INFO_TAB3_OPENTEXMAN1 "Open file Texture Long Sleeves 1st uniform"
+    IDS_INFO_TAB3_OPENTEXMAN2 "Open file Texture Long Sleeves 2nd uniform"
+    IDS_INFO_TAB3_TITLE1    " Player And GoalKeeper Texture "
+    IDS_INFO_TAB3_TITLE2    " Player And GoalKeeper Texture with Long Sleeves "
+    IDS_INFO_TIMOK          "File TIM succesfully made!"
+    IDS_INFO_TXTOK          "File TXT succesfully made!"
+    IDS_INFO_TXT_GRAPHICS   "Graphics file "
+    IDS_INFO_TXT_PALETTES   "Palette file "
+    IDS_NAME_NOFILE         "    No file specified"
+    IDS_PALTABCOL2          "Offset"
+    IDS_PALTABCOL3          "CLUT"
+    IDS_PALTABCOL4          "Vram X"
+    IDS_PALTABCOL5          "Vram Y"
+    IDS_PALTABCOL6          "Colors"
+    IDS_PALTABCOL7          "N.CL"
+    IDS_PALTABCOL8          "Length"
+    IDS_PALTABCOL9          "Offset Type"
+    IDS_TITLE_COLORS        "Colors"
+    IDS_TITLE_IMAGE         "Image"
+    IDS_TITLE_PALETTE       "Palette"
+END
+
+#endif    // Italian (Italy) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ITA)
+#ifdef _WIN32
+LANGUAGE 16, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\WECompressor.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.ita\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

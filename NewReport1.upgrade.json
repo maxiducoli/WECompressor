@@ -1,0 +1,901 @@
+{
+  "settings": {
+    "components": {
+      "code": true,
+      "binaries": true
+    },
+    "targetId": "",
+    "targetDisplayName": ".NET 8.0"
+  },
+  "analysisStartTime": "2024-06-26T22:56:35.6846411Z",
+  "analysisEndTime": "2024-06-26T22:56:37.6301969Z",
+  "privacyModeHelpUrl": "https://go.microsoft.com/fwlink/?linkid=2270980",
+  "stats": {
+    "summary": {
+      "projects": 1,
+      "issues": 2,
+      "incidents": 33,
+      "effort": 33
+    },
+    "charts": {
+      "severity": {
+        "Mandatory": 29,
+        "Optional": 0,
+        "Potential": 4,
+        "Information": 0
+      },
+      "category": {
+        "Api": 33
+      }
+    }
+  },
+  "projects": [
+    {
+      "path": "D:\\Documentos\\Mis proyectos C\u002B\u002B\\frmTest\\frmTest.csproj",
+      "startingProject": true,
+      "issues": 2,
+      "storyPoints": 33,
+      "ruleInstances": [
+        {
+          "incidentId": "18b85c30-97ac-44fd-9dd4-414bc08755f8",
+          "ruleId": "Api.0001",
+          "projectPath": "D:\\Documentos\\Mis proyectos C\u002B\u002B\\frmTest\\frmTest.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Binary",
+            "path": "%PROGRAMFILES%\\dotnet\\packs\\Microsoft.WindowsDesktop.App.Ref\\8.0.6\\ref\\net8.0\\Microsoft.VisualBasic.Forms.dll",
+            "snippet": "System.Windows.Forms.Screen Microsoft.VisualBasic.Devices.Computer::Screen()\r\n    -\u003E System.Windows.Forms.Screen",
+            "protectedSnippet": "T:System.Windows.Forms.Screen",
+            "label": "T:System.Windows.Forms.Screen",
+            "properties": {
+              "AssemblyName": "System.Windows.Forms",
+              "AssemblyVersion": "8.0.0.0",
+              "AssemblyPublicKeyToken": "b77a5c561934e089"
+            },
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.windows.forms.screen",
+                "isCustom": true
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "7b6ab81a-6299-463a-99e0-f14d3bdb930c",
+          "ruleId": "Api.0001",
+          "projectPath": "D:\\Documentos\\Mis proyectos C\u002B\u002B\\frmTest\\frmTest.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Binary",
+            "path": "%PROGRAMFILES%\\dotnet\\packs\\Microsoft.WindowsDesktop.App.Ref\\8.0.6\\ref\\net8.0\\Microsoft.VisualBasic.Forms.dll",
+            "snippet": "System.Windows.Forms.Form Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase::SplashScreen()\r\n    -\u003E System.Windows.Forms.Form",
+            "protectedSnippet": "T:System.Windows.Forms.Form",
+            "label": "T:System.Windows.Forms.Form",
+            "properties": {
+              "AssemblyName": "System.Windows.Forms",
+              "AssemblyVersion": "8.0.0.0",
+              "AssemblyPublicKeyToken": "b77a5c561934e089"
+            },
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.windows.forms.form",
+                "isCustom": true
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "8072d339-ea49-4b8f-bb2d-1c27c90d0454",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6.",
+          "projectPath": "D:\\Documentos\\Mis proyectos C\u002B\u002B\\frmTest\\frmTest.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Binary",
+            "path": "%PROGRAMFILES%\\dotnet\\packs\\Microsoft.WindowsDesktop.App.Ref\\8.0.6\\ref\\net8.0\\Microsoft.VisualBasic.Forms.dll",
+            "snippet": "System.Void Microsoft.VisualBasic.ApplicationServices.ApplyApplicationDefaultsEventArgs::set_Font(System.Drawing.Font)\r\n    -\u003E System.Drawing.Font",
+            "protectedSnippet": "T:System.Drawing.Font",
+            "label": "T:System.Drawing.Font",
+            "properties": {
+              "AssemblyName": "System.Drawing.Common",
+              "AssemblyVersion": "8.0.0.0",
+              "AssemblyPublicKeyToken": "cc7b13ffcd2ddd51"
+            },
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.drawing.font",
+                "isCustom": true
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "dcd6d6ce-78fc-4a20-a442-893cd29b92aa",
+          "ruleId": "Api.0001",
+          "projectPath": "D:\\Documentos\\Mis proyectos C\u002B\u002B\\frmTest\\frmTest.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Binary",
+            "path": "%PROGRAMFILES%\\dotnet\\packs\\Microsoft.WindowsDesktop.App.Ref\\8.0.6\\ref\\net8.0\\Microsoft.VisualBasic.Forms.dll",
+            "snippet": "System.Windows.Forms.Button Microsoft.VisualBasic.MyServices.Internal.ProgressDialog::ButtonCloseDialog()\r\n    -\u003E System.Windows.Forms.Button",
+            "protectedSnippet": "T:System.Windows.Forms.Button",
+            "label": "T:System.Windows.Forms.Button",
+            "properties": {
+              "AssemblyName": "System.Windows.Forms",
+              "AssemblyVersion": "8.0.0.0",
+              "AssemblyPublicKeyToken": "b77a5c561934e089"
+            },
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.windows.forms.button",
+                "isCustom": true
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "ce86bf5d-acad-4f5a-bd7b-6ecad4292d9a",
+          "ruleId": "Api.0001",
+          "projectPath": "D:\\Documentos\\Mis proyectos C\u002B\u002B\\frmTest\\frmTest.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Binary",
+            "path": "%PROGRAMFILES%\\dotnet\\packs\\Microsoft.WindowsDesktop.App.Ref\\8.0.6\\ref\\net8.0\\Microsoft.VisualBasic.Forms.dll",
+            "snippet": "System.Windows.Forms.Label Microsoft.VisualBasic.MyServices.Internal.ProgressDialog::LabelInfo()\r\n    -\u003E System.Windows.Forms.Label",
+            "protectedSnippet": "T:System.Windows.Forms.Label",
+            "label": "T:System.Windows.Forms.Label",
+            "properties": {
+              "AssemblyName": "System.Windows.Forms",
+              "AssemblyVersion": "8.0.0.0",
+              "AssemblyPublicKeyToken": "b77a5c561934e089"
+            },
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.windows.forms.label",
+                "isCustom": true
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "a455f7aa-f248-4eb0-bad9-6223f7e36e6a",
+          "ruleId": "Api.0001",
+          "projectPath": "D:\\Documentos\\Mis proyectos C\u002B\u002B\\frmTest\\frmTest.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Binary",
+            "path": "%PROGRAMFILES%\\dotnet\\packs\\Microsoft.WindowsDesktop.App.Ref\\8.0.6\\ref\\net8.0\\Microsoft.VisualBasic.Forms.dll",
+            "snippet": "System.Void Microsoft.VisualBasic.ApplicationServices.ApplyApplicationDefaultsEventArgs::set_HighDpiMode(System.Windows.Forms.HighDpiMode)\r\n    -\u003E System.Windows.Forms.HighDpiMode",
+            "protectedSnippet": "T:System.Windows.Forms.HighDpiMode",
+            "label": "T:System.Windows.Forms.HighDpiMode",
+            "properties": {
+              "AssemblyName": "System.Windows.Forms.Primitives",
+              "AssemblyVersion": "8.0.0.0",
+              "AssemblyPublicKeyToken": "b77a5c561934e089"
+            },
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.windows.forms.highdpimode",
+                "isCustom": true
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "30487885-6d6b-4864-a8f3-8818827fb84c",
+          "ruleId": "Api.0001",
+          "projectPath": "D:\\Documentos\\Mis proyectos C\u002B\u002B\\frmTest\\frmTest.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Binary",
+            "path": "%PROGRAMFILES%\\dotnet\\packs\\Microsoft.WindowsDesktop.App.Ref\\8.0.6\\ref\\net8.0\\Microsoft.VisualBasic.Forms.dll",
+            "snippet": "System.Windows.Forms.Button Microsoft.VisualBasic.MyServices.Internal.ProgressDialog::_ButtonCloseDialog\r\n    -\u003E System.Windows.Forms.Button",
+            "protectedSnippet": "T:System.Windows.Forms.Button",
+            "label": "T:System.Windows.Forms.Button",
+            "properties": {
+              "AssemblyName": "System.Windows.Forms",
+              "AssemblyVersion": "8.0.0.0",
+              "AssemblyPublicKeyToken": "b77a5c561934e089"
+            },
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.windows.forms.button",
+                "isCustom": true
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "557ef59f-89e7-4530-abee-6f187d7940ea",
+          "ruleId": "Api.0001",
+          "projectPath": "D:\\Documentos\\Mis proyectos C\u002B\u002B\\frmTest\\frmTest.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Binary",
+            "path": "%PROGRAMFILES%\\dotnet\\packs\\Microsoft.WindowsDesktop.App.Ref\\8.0.6\\ref\\net8.0\\Microsoft.VisualBasic.Forms.dll",
+            "snippet": "System.Void Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase::set_HighDpiMode(System.Windows.Forms.HighDpiMode)\r\n    -\u003E System.Windows.Forms.HighDpiMode",
+            "protectedSnippet": "T:System.Windows.Forms.HighDpiMode",
+            "label": "T:System.Windows.Forms.HighDpiMode",
+            "properties": {
+              "AssemblyName": "System.Windows.Forms.Primitives",
+              "AssemblyVersion": "8.0.0.0",
+              "AssemblyPublicKeyToken": "b77a5c561934e089"
+            },
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.windows.forms.highdpimode",
+                "isCustom": true
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "83f8b319-315f-4a94-aed2-1dbd117b482b",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6.",
+          "projectPath": "D:\\Documentos\\Mis proyectos C\u002B\u002B\\frmTest\\frmTest.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Binary",
+            "path": "%PROGRAMFILES%\\dotnet\\packs\\Microsoft.WindowsDesktop.App.Ref\\8.0.6\\ref\\net8.0\\Microsoft.VisualBasic.Forms.dll",
+            "snippet": "System.Drawing.Font Microsoft.VisualBasic.ApplicationServices.ApplyApplicationDefaultsEventArgs::Font()\r\n    -\u003E System.Drawing.Font",
+            "protectedSnippet": "T:System.Drawing.Font",
+            "label": "T:System.Drawing.Font",
+            "properties": {
+              "AssemblyName": "System.Drawing.Common",
+              "AssemblyVersion": "8.0.0.0",
+              "AssemblyPublicKeyToken": "cc7b13ffcd2ddd51"
+            },
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.drawing.font",
+                "isCustom": true
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "d0245a52-69ac-45b5-829f-b013c1004bf2",
+          "ruleId": "Api.0001",
+          "projectPath": "D:\\Documentos\\Mis proyectos C\u002B\u002B\\frmTest\\frmTest.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Binary",
+            "path": "%PROGRAMFILES%\\dotnet\\packs\\Microsoft.WindowsDesktop.App.Ref\\8.0.6\\ref\\net8.0\\Microsoft.VisualBasic.Forms.dll",
+            "snippet": "System.Void Microsoft.VisualBasic.MyServices.Internal.ProgressDialog::set_LabelInfo(System.Windows.Forms.Label)\r\n    -\u003E System.Windows.Forms.Label",
+            "protectedSnippet": "T:System.Windows.Forms.Label",
+            "label": "T:System.Windows.Forms.Label",
+            "properties": {
+              "AssemblyName": "System.Windows.Forms",
+              "AssemblyVersion": "8.0.0.0",
+              "AssemblyPublicKeyToken": "b77a5c561934e089"
+            },
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.windows.forms.label",
+                "isCustom": true
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "d01fce23-7187-420d-b802-c1b83c800eba",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6.",
+          "projectPath": "D:\\Documentos\\Mis proyectos C\u002B\u002B\\frmTest\\frmTest.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Binary",
+            "path": "%PROGRAMFILES%\\dotnet\\packs\\Microsoft.WindowsDesktop.App.Ref\\8.0.6\\ref\\net8.0\\Microsoft.VisualBasic.Forms.dll",
+            "snippet": "System.Void Microsoft.VisualBasic.MyServices.ClipboardProxy::SetImage(System.Drawing.Image)\r\n    -\u003E System.Drawing.Image",
+            "protectedSnippet": "T:System.Drawing.Image",
+            "label": "T:System.Drawing.Image",
+            "properties": {
+              "AssemblyName": "System.Drawing.Common",
+              "AssemblyVersion": "8.0.0.0",
+              "AssemblyPublicKeyToken": "cc7b13ffcd2ddd51"
+            },
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.drawing.image",
+                "isCustom": true
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "19f8ffda-6c28-4562-b7b0-dfc7ca14235f",
+          "ruleId": "Api.0001",
+          "projectPath": "D:\\Documentos\\Mis proyectos C\u002B\u002B\\frmTest\\frmTest.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Binary",
+            "path": "%PROGRAMFILES%\\dotnet\\packs\\Microsoft.WindowsDesktop.App.Ref\\8.0.6\\ref\\net8.0\\Microsoft.VisualBasic.Forms.dll",
+            "snippet": "Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase/WinFormsAppContext\r\n    -\u003E System.Windows.Forms.ApplicationContext",
+            "protectedSnippet": "T:System.Windows.Forms.ApplicationContext",
+            "label": "T:System.Windows.Forms.ApplicationContext",
+            "properties": {
+              "AssemblyName": "System.Windows.Forms",
+              "AssemblyVersion": "8.0.0.0",
+              "AssemblyPublicKeyToken": "b77a5c561934e089"
+            },
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.windows.forms.applicationcontext",
+                "isCustom": true
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "3135a360-fc16-4448-b4fa-4ae6f7275a57",
+          "ruleId": "Api.0001",
+          "projectPath": "D:\\Documentos\\Mis proyectos C\u002B\u002B\\frmTest\\frmTest.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Binary",
+            "path": "%PROGRAMFILES%\\dotnet\\packs\\Microsoft.WindowsDesktop.App.Ref\\8.0.6\\ref\\net8.0\\Microsoft.VisualBasic.Forms.dll",
+            "snippet": "System.Windows.Forms.HighDpiMode Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase::HighDpiMode()\r\n    -\u003E System.Windows.Forms.HighDpiMode",
+            "protectedSnippet": "T:System.Windows.Forms.HighDpiMode",
+            "label": "T:System.Windows.Forms.HighDpiMode",
+            "properties": {
+              "AssemblyName": "System.Windows.Forms.Primitives",
+              "AssemblyVersion": "8.0.0.0",
+              "AssemblyPublicKeyToken": "b77a5c561934e089"
+            },
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.windows.forms.highdpimode",
+                "isCustom": true
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "c10d63e2-8832-414a-96fa-8398840cde52",
+          "ruleId": "Api.0001",
+          "projectPath": "D:\\Documentos\\Mis proyectos C\u002B\u002B\\frmTest\\frmTest.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Binary",
+            "path": "%PROGRAMFILES%\\dotnet\\packs\\Microsoft.WindowsDesktop.App.Ref\\8.0.6\\ref\\net8.0\\Microsoft.VisualBasic.Forms.dll",
+            "snippet": "System.Windows.Forms.HighDpiMode Microsoft.VisualBasic.ApplicationServices.ApplyApplicationDefaultsEventArgs::HighDpiMode()\r\n    -\u003E System.Windows.Forms.HighDpiMode",
+            "protectedSnippet": "T:System.Windows.Forms.HighDpiMode",
+            "label": "T:System.Windows.Forms.HighDpiMode",
+            "properties": {
+              "AssemblyName": "System.Windows.Forms.Primitives",
+              "AssemblyVersion": "8.0.0.0",
+              "AssemblyPublicKeyToken": "b77a5c561934e089"
+            },
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.windows.forms.highdpimode",
+                "isCustom": true
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "fb5c49e0-4d5f-4efb-8ebf-71ddc6e33d01",
+          "ruleId": "Api.0001",
+          "projectPath": "D:\\Documentos\\Mis proyectos C\u002B\u002B\\frmTest\\frmTest.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Binary",
+            "path": "%PROGRAMFILES%\\dotnet\\packs\\Microsoft.WindowsDesktop.App.Ref\\8.0.6\\ref\\net8.0\\Microsoft.VisualBasic.Forms.dll",
+            "snippet": "System.Windows.Forms.ProgressBar Microsoft.VisualBasic.MyServices.Internal.ProgressDialog::ProgressBarWork()\r\n    -\u003E System.Windows.Forms.ProgressBar",
+            "protectedSnippet": "T:System.Windows.Forms.ProgressBar",
+            "label": "T:System.Windows.Forms.ProgressBar",
+            "properties": {
+              "AssemblyName": "System.Windows.Forms",
+              "AssemblyVersion": "8.0.0.0",
+              "AssemblyPublicKeyToken": "b77a5c561934e089"
+            },
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.windows.forms.progressbar",
+                "isCustom": true
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "9cf9bc6d-622b-4e5c-834a-9c4a3b948ae1",
+          "ruleId": "Api.0001",
+          "projectPath": "D:\\Documentos\\Mis proyectos C\u002B\u002B\\frmTest\\frmTest.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Binary",
+            "path": "%PROGRAMFILES%\\dotnet\\packs\\Microsoft.WindowsDesktop.App.Ref\\8.0.6\\ref\\net8.0\\Microsoft.VisualBasic.Forms.dll",
+            "snippet": "System.Windows.Forms.CreateParams Microsoft.VisualBasic.MyServices.Internal.ProgressDialog::CreateParams()\r\n    -\u003E System.Windows.Forms.CreateParams",
+            "protectedSnippet": "T:System.Windows.Forms.CreateParams",
+            "label": "T:System.Windows.Forms.CreateParams",
+            "properties": {
+              "AssemblyName": "System.Windows.Forms",
+              "AssemblyVersion": "8.0.0.0",
+              "AssemblyPublicKeyToken": "b77a5c561934e089"
+            },
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.windows.forms.createparams",
+                "isCustom": true
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "59913eab-d2cd-4cb8-8c09-0f74b77cf341",
+          "ruleId": "Api.0001",
+          "projectPath": "D:\\Documentos\\Mis proyectos C\u002B\u002B\\frmTest\\frmTest.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Binary",
+            "path": "%PROGRAMFILES%\\dotnet\\packs\\Microsoft.WindowsDesktop.App.Ref\\8.0.6\\ref\\net8.0\\Microsoft.VisualBasic.Forms.dll",
+            "snippet": "System.Void Microsoft.VisualBasic.MyServices.ClipboardProxy::SetDataObject(System.Windows.Forms.DataObject)\r\n    -\u003E System.Windows.Forms.DataObject",
+            "protectedSnippet": "T:System.Windows.Forms.DataObject",
+            "label": "T:System.Windows.Forms.DataObject",
+            "properties": {
+              "AssemblyName": "System.Windows.Forms",
+              "AssemblyVersion": "8.0.0.0",
+              "AssemblyPublicKeyToken": "b77a5c561934e089"
+            },
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.windows.forms.dataobject",
+                "isCustom": true
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "d9437465-90e7-4b15-8a4f-4694377f4d2c",
+          "ruleId": "Api.0001",
+          "projectPath": "D:\\Documentos\\Mis proyectos C\u002B\u002B\\frmTest\\frmTest.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Binary",
+            "path": "%PROGRAMFILES%\\dotnet\\packs\\Microsoft.WindowsDesktop.App.Ref\\8.0.6\\ref\\net8.0\\Microsoft.VisualBasic.Forms.dll",
+            "snippet": "System.Windows.Forms.FormCollection Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase::OpenForms()\r\n    -\u003E System.Windows.Forms.FormCollection",
+            "protectedSnippet": "T:System.Windows.Forms.FormCollection",
+            "label": "T:System.Windows.Forms.FormCollection",
+            "properties": {
+              "AssemblyName": "System.Windows.Forms",
+              "AssemblyVersion": "8.0.0.0",
+              "AssemblyPublicKeyToken": "b77a5c561934e089"
+            },
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.windows.forms.formcollection",
+                "isCustom": true
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "c20011bb-8a06-481c-abdf-cc1b33fe06ff",
+          "ruleId": "Api.0001",
+          "projectPath": "D:\\Documentos\\Mis proyectos C\u002B\u002B\\frmTest\\frmTest.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Binary",
+            "path": "%PROGRAMFILES%\\dotnet\\packs\\Microsoft.WindowsDesktop.App.Ref\\8.0.6\\ref\\net8.0\\Microsoft.VisualBasic.Forms.dll",
+            "snippet": "System.Void Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase::set_MainForm(System.Windows.Forms.Form)\r\n    -\u003E System.Windows.Forms.Form",
+            "protectedSnippet": "T:System.Windows.Forms.Form",
+            "label": "T:System.Windows.Forms.Form",
+            "properties": {
+              "AssemblyName": "System.Windows.Forms",
+              "AssemblyVersion": "8.0.0.0",
+              "AssemblyPublicKeyToken": "b77a5c561934e089"
+            },
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.windows.forms.form",
+                "isCustom": true
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "ab2ab6e8-2db9-4f47-ae4e-5d7c2de26ab3",
+          "ruleId": "Api.0001",
+          "projectPath": "D:\\Documentos\\Mis proyectos C\u002B\u002B\\frmTest\\frmTest.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Binary",
+            "path": "%PROGRAMFILES%\\dotnet\\packs\\Microsoft.WindowsDesktop.App.Ref\\8.0.6\\ref\\net8.0\\Microsoft.VisualBasic.Forms.dll",
+            "snippet": "System.Void Microsoft.VisualBasic.MyServices.ClipboardProxy::SetText(System.String,System.Windows.Forms.TextDataFormat)\r\n    -\u003E System.Windows.Forms.TextDataFormat",
+            "protectedSnippet": "T:System.Windows.Forms.TextDataFormat",
+            "label": "T:System.Windows.Forms.TextDataFormat",
+            "properties": {
+              "AssemblyName": "System.Windows.Forms",
+              "AssemblyVersion": "8.0.0.0",
+              "AssemblyPublicKeyToken": "b77a5c561934e089"
+            },
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.windows.forms.textdataformat",
+                "isCustom": true
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "eccd9b59-0ecd-491e-870f-ec03610c7545",
+          "ruleId": "Api.0001",
+          "projectPath": "D:\\Documentos\\Mis proyectos C\u002B\u002B\\frmTest\\frmTest.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Binary",
+            "path": "%PROGRAMFILES%\\dotnet\\packs\\Microsoft.WindowsDesktop.App.Ref\\8.0.6\\ref\\net8.0\\Microsoft.VisualBasic.Forms.dll",
+            "snippet": "System.Void Microsoft.VisualBasic._Interaction/InputBoxHandler::.ctor(System.String,System.String,System.String,System.Int32,System.Int32,System.Windows.Forms.IWin32Window)\r\n    -\u003E System.Windows.Forms.IWin32Window",
+            "protectedSnippet": "T:System.Windows.Forms.IWin32Window",
+            "label": "T:System.Windows.Forms.IWin32Window",
+            "properties": {
+              "AssemblyName": "System.Windows.Forms",
+              "AssemblyVersion": "8.0.0.0",
+              "AssemblyPublicKeyToken": "b77a5c561934e089"
+            },
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.windows.forms.iwin32window",
+                "isCustom": true
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "85c5b9cf-b921-46a9-9719-578e5d17cf32",
+          "ruleId": "Api.0001",
+          "projectPath": "D:\\Documentos\\Mis proyectos C\u002B\u002B\\frmTest\\frmTest.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Binary",
+            "path": "%PROGRAMFILES%\\dotnet\\packs\\Microsoft.WindowsDesktop.App.Ref\\8.0.6\\ref\\net8.0\\Microsoft.VisualBasic.Forms.dll",
+            "snippet": "System.Void Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase::set_SplashScreen(System.Windows.Forms.Form)\r\n    -\u003E System.Windows.Forms.Form",
+            "protectedSnippet": "T:System.Windows.Forms.Form",
+            "label": "T:System.Windows.Forms.Form",
+            "properties": {
+              "AssemblyName": "System.Windows.Forms",
+              "AssemblyVersion": "8.0.0.0",
+              "AssemblyPublicKeyToken": "b77a5c561934e089"
+            },
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.windows.forms.form",
+                "isCustom": true
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "5fd25f9b-7cd6-4f23-8dc2-e7200351f5da",
+          "ruleId": "Api.0001",
+          "projectPath": "D:\\Documentos\\Mis proyectos C\u002B\u002B\\frmTest\\frmTest.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Binary",
+            "path": "%PROGRAMFILES%\\dotnet\\packs\\Microsoft.WindowsDesktop.App.Ref\\8.0.6\\ref\\net8.0\\Microsoft.VisualBasic.Forms.dll",
+            "snippet": "System.Void Microsoft.VisualBasic.MyServices.Internal.ProgressDialog::set_ProgressBarWork(System.Windows.Forms.ProgressBar)\r\n    -\u003E System.Windows.Forms.ProgressBar",
+            "protectedSnippet": "T:System.Windows.Forms.ProgressBar",
+            "label": "T:System.Windows.Forms.ProgressBar",
+            "properties": {
+              "AssemblyName": "System.Windows.Forms",
+              "AssemblyVersion": "8.0.0.0",
+              "AssemblyPublicKeyToken": "b77a5c561934e089"
+            },
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.windows.forms.progressbar",
+                "isCustom": true
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "d795bcd6-4904-4454-8dfc-026614660a31",
+          "ruleId": "Api.0001",
+          "projectPath": "D:\\Documentos\\Mis proyectos C\u002B\u002B\\frmTest\\frmTest.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Binary",
+            "path": "%PROGRAMFILES%\\dotnet\\packs\\Microsoft.WindowsDesktop.App.Ref\\8.0.6\\ref\\net8.0\\Microsoft.VisualBasic.Forms.dll",
+            "snippet": "System.Boolean Microsoft.VisualBasic.MyServices.ClipboardProxy::ContainsText(System.Windows.Forms.TextDataFormat)\r\n    -\u003E System.Windows.Forms.TextDataFormat",
+            "protectedSnippet": "T:System.Windows.Forms.TextDataFormat",
+            "label": "T:System.Windows.Forms.TextDataFormat",
+            "properties": {
+              "AssemblyName": "System.Windows.Forms",
+              "AssemblyVersion": "8.0.0.0",
+              "AssemblyPublicKeyToken": "b77a5c561934e089"
+            },
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.windows.forms.textdataformat",
+                "isCustom": true
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "92fc2091-a798-4909-ae55-9ca01f301724",
+          "ruleId": "Api.0001",
+          "projectPath": "D:\\Documentos\\Mis proyectos C\u002B\u002B\\frmTest\\frmTest.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Binary",
+            "path": "%PROGRAMFILES%\\dotnet\\packs\\Microsoft.WindowsDesktop.App.Ref\\8.0.6\\ref\\net8.0\\Microsoft.VisualBasic.Forms.dll",
+            "snippet": "System.Windows.Forms.Form Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase::MainForm()\r\n    -\u003E System.Windows.Forms.Form",
+            "protectedSnippet": "T:System.Windows.Forms.Form",
+            "label": "T:System.Windows.Forms.Form",
+            "properties": {
+              "AssemblyName": "System.Windows.Forms",
+              "AssemblyVersion": "8.0.0.0",
+              "AssemblyPublicKeyToken": "b77a5c561934e089"
+            },
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.windows.forms.form",
+                "isCustom": true
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "89377f59-28f7-4c57-b970-2e720129d0a7",
+          "ruleId": "Api.0001",
+          "projectPath": "D:\\Documentos\\Mis proyectos C\u002B\u002B\\frmTest\\frmTest.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Binary",
+            "path": "%PROGRAMFILES%\\dotnet\\packs\\Microsoft.WindowsDesktop.App.Ref\\8.0.6\\ref\\net8.0\\Microsoft.VisualBasic.Forms.dll",
+            "snippet": "System.Windows.Forms.Label Microsoft.VisualBasic.MyServices.Internal.ProgressDialog::_LabelInfo\r\n    -\u003E System.Windows.Forms.Label",
+            "protectedSnippet": "T:System.Windows.Forms.Label",
+            "label": "T:System.Windows.Forms.Label",
+            "properties": {
+              "AssemblyName": "System.Windows.Forms",
+              "AssemblyVersion": "8.0.0.0",
+              "AssemblyPublicKeyToken": "b77a5c561934e089"
+            },
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.windows.forms.label",
+                "isCustom": true
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "017abf2c-9ea1-4436-89ff-b174a7a87582",
+          "ruleId": "Api.0001",
+          "projectPath": "D:\\Documentos\\Mis proyectos C\u002B\u002B\\frmTest\\frmTest.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Binary",
+            "path": "%PROGRAMFILES%\\dotnet\\packs\\Microsoft.WindowsDesktop.App.Ref\\8.0.6\\ref\\net8.0\\Microsoft.VisualBasic.Forms.dll",
+            "snippet": "System.String Microsoft.VisualBasic.MyServices.ClipboardProxy::GetText(System.Windows.Forms.TextDataFormat)\r\n    -\u003E System.Windows.Forms.TextDataFormat",
+            "protectedSnippet": "T:System.Windows.Forms.TextDataFormat",
+            "label": "T:System.Windows.Forms.TextDataFormat",
+            "properties": {
+              "AssemblyName": "System.Windows.Forms",
+              "AssemblyVersion": "8.0.0.0",
+              "AssemblyPublicKeyToken": "b77a5c561934e089"
+            },
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.windows.forms.textdataformat",
+                "isCustom": true
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "460d94d6-dd5e-4d31-ac02-b9b8ddc382ea",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Windows.Extensions, 8.0.0.",
+          "projectPath": "D:\\Documentos\\Mis proyectos C\u002B\u002B\\frmTest\\frmTest.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Binary",
+            "path": "%PROGRAMFILES%\\dotnet\\packs\\Microsoft.WindowsDesktop.App.Ref\\8.0.6\\ref\\net8.0\\Microsoft.VisualBasic.Forms.dll",
+            "snippet": "System.Void Microsoft.VisualBasic.Devices.Audio::PlaySystemSound(System.Media.SystemSound)\r\n    -\u003E System.Media.SystemSound",
+            "protectedSnippet": "T:System.Media.SystemSound",
+            "label": "T:System.Media.SystemSound",
+            "properties": {
+              "AssemblyName": "System.Windows.Extensions",
+              "AssemblyVersion": "8.0.0.0",
+              "AssemblyPublicKeyToken": "cc7b13ffcd2ddd51"
+            },
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.media.systemsound",
+                "isCustom": true
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "29046366-d93c-43ce-9f54-0b47d39ffe65",
+          "ruleId": "Api.0001",
+          "projectPath": "D:\\Documentos\\Mis proyectos C\u002B\u002B\\frmTest\\frmTest.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Binary",
+            "path": "%PROGRAMFILES%\\dotnet\\packs\\Microsoft.WindowsDesktop.App.Ref\\8.0.6\\ref\\net8.0\\Microsoft.VisualBasic.Forms.dll",
+            "snippet": "Microsoft.VisualBasic.CompilerServices.VBInputBox\r\n    -\u003E System.Windows.Forms.Form",
+            "protectedSnippet": "T:System.Windows.Forms.Form",
+            "label": "T:System.Windows.Forms.Form",
+            "properties": {
+              "AssemblyName": "System.Windows.Forms",
+              "AssemblyVersion": "8.0.0.0",
+              "AssemblyPublicKeyToken": "b77a5c561934e089"
+            },
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.windows.forms.form",
+                "isCustom": true
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "7e231c5d-52fd-4eed-89e1-c844fc59a326",
+          "ruleId": "Api.0001",
+          "projectPath": "D:\\Documentos\\Mis proyectos C\u002B\u002B\\frmTest\\frmTest.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Binary",
+            "path": "%PROGRAMFILES%\\dotnet\\packs\\Microsoft.WindowsDesktop.App.Ref\\8.0.6\\ref\\net8.0\\Microsoft.VisualBasic.Forms.dll",
+            "snippet": "System.Windows.Forms.ApplicationContext Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase::ApplicationContext()\r\n    -\u003E System.Windows.Forms.ApplicationContext",
+            "protectedSnippet": "T:System.Windows.Forms.ApplicationContext",
+            "label": "T:System.Windows.Forms.ApplicationContext",
+            "properties": {
+              "AssemblyName": "System.Windows.Forms",
+              "AssemblyVersion": "8.0.0.0",
+              "AssemblyPublicKeyToken": "b77a5c561934e089"
+            },
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.windows.forms.applicationcontext",
+                "isCustom": true
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "08c39d61-adc5-4771-88ff-1cded23dfb47",
+          "ruleId": "Api.0001",
+          "projectPath": "D:\\Documentos\\Mis proyectos C\u002B\u002B\\frmTest\\frmTest.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Binary",
+            "path": "%PROGRAMFILES%\\dotnet\\packs\\Microsoft.WindowsDesktop.App.Ref\\8.0.6\\ref\\net8.0\\Microsoft.VisualBasic.Forms.dll",
+            "snippet": "Microsoft.VisualBasic.MyServices.Internal.ProgressDialog\r\n    -\u003E System.Windows.Forms.Form",
+            "protectedSnippet": "T:System.Windows.Forms.Form",
+            "label": "T:System.Windows.Forms.Form",
+            "properties": {
+              "AssemblyName": "System.Windows.Forms",
+              "AssemblyVersion": "8.0.0.0",
+              "AssemblyPublicKeyToken": "b77a5c561934e089"
+            },
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.windows.forms.form",
+                "isCustom": true
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "e8967790-7af8-428f-b87f-1f7ece1ab35c",
+          "ruleId": "Api.0001",
+          "projectPath": "D:\\Documentos\\Mis proyectos C\u002B\u002B\\frmTest\\frmTest.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Binary",
+            "path": "%PROGRAMFILES%\\dotnet\\packs\\Microsoft.WindowsDesktop.App.Ref\\8.0.6\\ref\\net8.0\\Microsoft.VisualBasic.Forms.dll",
+            "snippet": "System.Void Microsoft.VisualBasic.MyServices.Internal.ProgressDialog::set_ButtonCloseDialog(System.Windows.Forms.Button)\r\n    -\u003E System.Windows.Forms.Button",
+            "protectedSnippet": "T:System.Windows.Forms.Button",
+            "label": "T:System.Windows.Forms.Button",
+            "properties": {
+              "AssemblyName": "System.Windows.Forms",
+              "AssemblyVersion": "8.0.0.0",
+              "AssemblyPublicKeyToken": "b77a5c561934e089"
+            },
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.windows.forms.button",
+                "isCustom": true
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "1834dc33-1af1-482c-b748-d3a9abdac98d",
+          "ruleId": "Api.0001",
+          "projectPath": "D:\\Documentos\\Mis proyectos C\u002B\u002B\\frmTest\\frmTest.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Binary",
+            "path": "%PROGRAMFILES%\\dotnet\\packs\\Microsoft.WindowsDesktop.App.Ref\\8.0.6\\ref\\net8.0\\Microsoft.VisualBasic.Forms.dll",
+            "snippet": "System.Windows.Forms.ProgressBar Microsoft.VisualBasic.MyServices.Internal.ProgressDialog::_ProgressBarWork\r\n    -\u003E System.Windows.Forms.ProgressBar",
+            "protectedSnippet": "T:System.Windows.Forms.ProgressBar",
+            "label": "T:System.Windows.Forms.ProgressBar",
+            "properties": {
+              "AssemblyName": "System.Windows.Forms",
+              "AssemblyVersion": "8.0.0.0",
+              "AssemblyPublicKeyToken": "b77a5c561934e089"
+            },
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.windows.forms.progressbar",
+                "isCustom": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "Api.0001": {
+      "id": "Api.0001",
+      "description": "API does not exist in the selected version of .NET. See breaking changes documentation for alternative or replacement functionality.",
+      "label": "API does not exist",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Breaking changes in .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262679",
+          "isCustom": false
+        }
+      ]
+    },
+    "Api.0002": {
+      "id": "Api.0002",
+      "description": "Some API that lived in older versions of .NET frameworks were moved to standalone NuGet packages that could be added to projects explicitly.",
+      "label": "API available in NuGet package",
+      "severity": "Potential",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Breaking changes in .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262679",
+          "isCustom": false
+        }
+      ]
+    }
+  }
+}
